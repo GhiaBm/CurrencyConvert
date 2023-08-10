@@ -1,0 +1,322 @@
+* {
+  color: #fcc254;
+}
+.navbar,
+.nav-link,
+.navbar-brand {
+  background-color: hsl(236, 48%, 24%);
+  color: #fcc254 !important;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 800px;
+  min-height: fit-content;
+  background-image: url("pexels-franco-15522683.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #e4e4e4;
+  width: 50%;
+  margin: auto;
+  min-height: fit-content;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.first {
+  width: 100%;
+  position: relative;
+  top: 50px;
+  background-color: hsl(236, 48%, 24%);
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.firstinbetween {
+  display: flex;
+  height: 200px;
+  position: relative;
+  top: 200px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.video {
+  border-color: #20245c;
+  border-radius: 45%;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  left: 5%;
+}
+.Title {
+  font-size: 40px;
+}
+.descrition,
+.descrition1 {
+  position: relative;
+  left: 8%;
+  font-size: 18px;
+}
+.descrition1 {
+  position: relative;
+  left: 23%;
+  top: -7%;
+}
+button,
+#convertbutton {
+  width: 100px;
+  height: 50px;
+}
+.button {
+  margin: 50px 0 0 45%;
+}
+#convertbutton {
+  border-radius: 25%;
+  position: relative;
+  top: 70%;
+  left: -75%;
+  height: 50px;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%) !important;
+}
+.swap-rate-container {
+  position: relative;
+  top: 40%;
+  left: 11%;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%);
+}
+#rate {
+  font-size: 13px;
+  position: relative;
+  top: 80%;
+  left: -15%;
+  height: 40px;
+  white-space: pre;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%);
+}
+#currency-two {
+  position: relative;
+  left: 35%;
+  top: 35%;
+  width: 250px !important;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%) !important;
+}
+#amount-two {
+  position: relative;
+  left: 35%;
+  top: 50%;
+  width: 250px !important;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%) !important;
+}
+#currency-one {
+  position: relative;
+  top: 35%;
+  left: 25%;
+  width: 250px !important;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%) !important;
+}
+#amount-one {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  width: 250px !important;
+  background-color: #fcc254;
+  color: hsl(236, 48%, 24%) !important;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .video {
+    width: 500px;
+    height: 600px;
+    left: -10%;
+    display: block;
+  }
+  .firstinbetween {
+    z-index: 5;
+    display: flex;
+    top: 225px;
+    left: 20%;
+  }
+  .descrition,
+  .descrition1 {
+    display: none;
+  }
+
+  .swap-rate-container {
+    top: 35%;
+    left: 11%;
+    height: 50px;
+  }
+  #rate {
+    font-size: 13px;
+    top: 80%;
+    left: -120%;
+  }
+  #currency-two {
+    left: -42%;
+    top: 50%;
+    width: 200px !important;
+  }
+  #amount-two {
+    left: -42%;
+    top: 55%;
+    width: 200px !important;
+  }
+  #currency-one {
+    top: 15%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #amount-one {
+    top: 20%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #convertbutton {
+    top: 70%;
+    left: -90%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .video {
+    width: 500px;
+    height: 600px;
+    left: 0%;
+    display: block;
+  }
+  .firstinbetween {
+    z-index: 5;
+    display: flex;
+    top: 225px;
+    left: 10%;
+  }
+  .descrition,
+  .descrition1 {
+    display: none;
+  }
+
+  .swap-rate-container {
+    top: 35%;
+    left: 11%;
+    height: 50px;
+  }
+  #rate {
+    font-size: 13px;
+    top: 80%;
+    left: -60%;
+  }
+  #currency-two {
+    left: -42%;
+    top: 50%;
+    width: 200px !important;
+  }
+  #amount-two {
+    left: -42%;
+    top: 55%;
+    width: 200px !important;
+  }
+  #currency-one {
+    top: 15%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #amount-one {
+    top: 20%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #convertbutton {
+    top: 70%;
+    left: -70%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .swap-rate-container {
+    top: 35%;
+    left: 11%;
+    height: 50px;
+  }
+  #rate {
+    font-size: 13px;
+    top: 80%;
+    left: -70%;
+  }
+  #currency-two {
+    left: -42%;
+    top: 50%;
+    width: 200px !important;
+  }
+  #amount-two {
+    left: -42%;
+    top: 55%;
+    width: 200px !important;
+  }
+  #currency-one {
+    top: 15%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #amount-one {
+    top: 20%;
+    left: 108%;
+    width: 200px !important;
+  }
+  #convertbutton {
+    top: 70%;
+    left: -70%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1180px) {
+  .swap-rate-container {
+    top: 35%;
+    left: 11%;
+    height: 50px;
+  }
+  #rate {
+    font-size: 13px;
+    top: 80%;
+    left: -70%;
+  }
+  #currency-two {
+    left: -42%;
+    top: 50%;
+    width: 400px !important;
+  }
+  #amount-two {
+    left: -42%;
+    top: 55%;
+    width: 400px !important;
+  }
+  #currency-one {
+    top: 15%;
+    left: 85%;
+    width: 400px !important;
+  }
+  #amount-one {
+    top: 20%;
+    left: 85%;
+    width: 400px !important;
+  }
+  #convertbutton {
+    top: 70%;
+    left: -70%;
+  }
+}
